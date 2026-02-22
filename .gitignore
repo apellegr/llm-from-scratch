@@ -8,6 +8,7 @@ build/
 *.pt
 *.bin
 *.safetensors
-data/
+data/*.pt
+data/*.bin
 wandb/
 .DS_Store
