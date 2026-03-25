@@ -8,7 +8,7 @@ Building core LLM components from scratch to understand the infrastructure behin
 - **[Embeddings](docs/02-embeddings.md)** — Token and positional embeddings
 - **[Attention](docs/03-attention.md)** — Scaled dot-product and multi-head attention
 - **[Transformer blocks](docs/04-transformer-block.md)** — Layer norm, feed-forward networks, residual connections
-- **Decoder** — Autoregressive text generation with causal masking
+- **[Decoder](docs/05-decoder-and-generation.md)** — Autoregressive text generation with causal masking
 - **Training loop** — Loss functions, optimizers, and gradient flow
 
 ## Structure
