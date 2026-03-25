@@ -10,5 +10,6 @@ build/
 *.safetensors
 data/*.pt
 data/*.bin
+data/wikimed_train.txt
 wandb/
 .DS_Store
