@@ -2,6 +2,8 @@
 
 Building core LLM components from scratch to understand the infrastructure behind large language models.
 
+**[Start here: End-to-end overview](docs/00-overview.md)**
+
 ## Topics
 
 - **[Tokenization](docs/01-tokenization.md)** — BPE and subword tokenizers
@@ -22,6 +24,20 @@ src/
   model.py           # Full GPT-style language model
   train.py           # Training loop
   generate.py        # Text generation / inference
+```
+
+## Demos
+
+Each component has a runnable demo:
+
+```bash
+python demo_tokenizer.py          # Train BPE and inspect merges
+python demo_compression_curve.py  # Vocab size vs compression
+python demo_embeddings.py         # Learned vs sinusoidal comparison
+python demo_attention.py          # Attention weight visualization
+python demo_transformer.py        # Layer-by-layer vector evolution
+python demo_generation.py         # Full pipeline (untrained)
+python demo_train.py              # Train on WikiMed and watch it learn
 ```
 
 ## Setup
